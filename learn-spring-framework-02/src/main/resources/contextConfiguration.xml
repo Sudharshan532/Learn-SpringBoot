@@ -13,7 +13,7 @@
 		<constructor-arg value="32"/>
 	</bean>
 	
-	
+	// test
 	<bean id="game" class="com.in28minutes.learn_spring_framework.game.PacMan"/>
 	
 	<bean id="gameRunner" class="com.in28minutes.learn_spring_framework.game.GameRunner">
