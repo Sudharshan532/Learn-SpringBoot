@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ComponentScan("com.in28minutes.learn_spring_framework.examples.a1")
+@ComponentScan("com.in28minutes.learn_spring_framework.examples.h1")
 public class XmlConfigurationContextLauncherApplication {
 	
 
