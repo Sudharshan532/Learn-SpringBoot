@@ -8,5 +8,15 @@
 	<bean id="name" class="java.lang.String">
 		<constructor-arg value="Sudharshan"/>
 	</bean>
-
+	
+	<bean id="age" class="java.lang.Integer">
+		<constructor-arg value="32"/>
+	</bean>
+	
+	
+	<bean id="game" class="com.in28minutes.learn_spring_framework.game.PacMan"/>
+	
+	<bean id="gameRunner" class="com.in28minutes.learn_spring_framework.game.GameRunner">
+		<constructor-arg ref="game"/>
+	</bean>
 </beans>
